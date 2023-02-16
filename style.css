@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif ;
+}
+
+.banner {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("./images/banner.jpg") no-repeat center;
+  background-size: cover;
+  height: 90vh;
+}
+
+/* Nav Bar  */
+
+.navbar {
+}
+
+.navbar .navbar-brand {
+  width: 180px;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 7px;
+  font-weight: 500;
+}
+
+.navbar .navbar-toggler img {
+  color: #fff;
+  fill: #fff;
+}
+
+.content{
+  position: absolute;
+  top: 200px;
+}
+
+.banner-content h1{
+  font-weight: 400;
+}
+
+.content .image img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0px -190px;
+}
