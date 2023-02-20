@@ -1,11 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif ;
+  font-family: "Poppins", sans-serif;
 }
+
+:root {
+  --main-color: #2277f6;
+  --font-main-color: #1a1a1a;
+  --font-secondery-color: #4a4a4a;
+}
+
+/* Common Css  */
+
+.side-dash {
+  position: relative;
+  left: 70px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 50%;
+}
+
+.side-dash span {
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: -65px;
+  margin: 0 5px;
+}
+
+.space-between-section {
+  margin: 10% 0;
+}
+
+/* Header  */
 
 .banner {
   background: linear-gradient(
@@ -15,7 +46,6 @@
     ),
     url("./images/banner.jpg") no-repeat center;
   background-size: cover;
-  height: 90vh;
 }
 
 /* Nav Bar  */
@@ -39,18 +69,88 @@
   fill: #fff;
 }
 
-.content{
-  position: absolute;
+.content {
+  position: relative;
+
   top: 100px;
 }
 
-.banner-content h1{
+.banner-content h1 {
   font-weight: 400;
 }
 
-.content .image img{
-  height: 70%;
+.content .image img {
+  height: 600px;
   width: 100%;
   object-fit: cover;
-  object-position: 0px -190px;
+}
+
+/* Home Section 1  */
+
+.home-section-1 {
+  margin-top: 250px;
+  position: relative;
+}
+
+.home-section-1 h2 {
+  z-index: 999;
+}
+
+.home-section-1 h2::before {
+  content: "ELEGANCE SIMPLICITY";
+  position: absolute;
+  top: -22%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  font-size: clamp(4.1rem, 15vw, 9rem);
+  text-align: center;
+  margin: 0;
+  z-index: -999;
+  color: #f9fafa;
+}
+
+.home-section-1 .content .detail {
+  padding: 0 0 0 65px;
+}
+
+.home-section-1 .content .detail h3 {
+  font-size: 2.7rem;
+  color: var(--font-main-color);
+}
+
+.home-section-1 .content .detail p {
+  font-size: 0.95rem;
+  color: var(--font-secondery-color);
+}
+
+/* Home Section 2  */
+
+.home-section-2 {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    url("./images/banner2.jpg");
+  background-size: cover;
+  margin-top: 180px;
+}
+
+.home-section-2 .services-list {
+  position: relative;
+  top: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .home-section-1 h2::before {
+    top: -13%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .home-section-1 h2::before {
+    top: -5%;
+  }
 }
