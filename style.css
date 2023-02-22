@@ -36,6 +36,10 @@
   margin: 10% 0;
 }
 
+.rounded-50 {
+  border-radius: 50%;
+}
+
 /* Header  */
 
 .banner {
@@ -83,6 +87,7 @@
   height: 600px;
   width: 100%;
   object-fit: cover;
+  object-position: bottom;
 }
 
 /* Home Section 1  */
@@ -104,7 +109,7 @@
   width: 100%;
   height: 100%;
   font-weight: 700;
-  font-size: clamp(4.1rem, 15vw, 9rem);
+  font-size: clamp(3.5rem, 15vw, 9rem);
   text-align: center;
   margin: 0;
   z-index: -999;
@@ -141,6 +146,56 @@
 .home-section-2 .services-list {
   position: relative;
   top: 150px;
+}
+
+.home-section-3 {
+  margin-top: 150px;
+  z-index: 999;
+}
+
+.home-section-3 .fade-text {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  z-index: -999;
+}
+
+.home-section-3 .fade-text h2 {
+  font-size: clamp(3.3rem, 11vw, 9rem);
+  font-weight: 700;
+  color: #f9fafa;
+}
+
+.home-section-3 .info {
+  z-index: 999;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.home-section-3 .info h6 {
+  font-size: 1.1rem;
+}
+
+.home-section-3 .info h3 {
+  font-size: 2.4rem;
+}
+
+.home-section-3 .services {
+  position: relative;
+  z-index: 999;
+}
+
+.home-section-4 {
+  margin-top: 100px;
+  padding: 200px 0;
+  background-color: #cfe2ff25;
+}
+
+.home-section-4 .fade-text h2 {
+  font-size: clamp(3.3rem, 11vw, 9rem);
+  transform: translate(0, -50%);
+  color: #f9fafa;
+
 }
 
 @media only screen and (max-width: 700px) {
