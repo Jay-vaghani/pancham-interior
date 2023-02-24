@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&family=Raleway:wght@200;300;400;500;600;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +38,8 @@
 .rounded-50 {
   border-radius: 50%;
 }
+
+/* **************************** Home Page **************************** */
 
 /* Header  */
 
@@ -195,7 +196,47 @@
   font-size: clamp(3.3rem, 11vw, 9rem);
   transform: translate(0, -50%);
   color: #f9fafa;
+}
 
+/* **************************** Portfolio Page **************************** */
+
+.portfolio .banner {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("./images/portfolio-banner.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.portfolio .portfolio-banner-content p:nth-child(1) {
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  color: #9a9a9a;
+}
+
+.portfolio .portfolio-banner-content h4 {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.portfolio .horizontal-line {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 1px;
+  height: 100px;
+}
+
+.portfolio-section-1{
+  margin-top: 150px;
+}
+
+.portfolio-section-1 .fade-text h2 {
+  font-size: clamp(3.3rem, 11vw, 9rem);
+  transform: translate(0, 50%);
+  z-index: -999;
+  color: #f9fafa;
 }
 
 @media only screen and (max-width: 700px) {
