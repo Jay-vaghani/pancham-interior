@@ -228,7 +228,7 @@
   height: 100px;
 }
 
-.portfolio-section-1{
+.portfolio-section-1 {
   margin-top: 150px;
 }
 
@@ -237,6 +237,52 @@
   transform: translate(0, 50%);
   z-index: -999;
   color: #f9fafa;
+}
+
+/* **************************** Contact Page **************************** */
+
+.contact .banner {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("./images/contact-banner.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contact .contact-banner-content p:nth-child(1) {
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  color: #9a9a9a;
+}
+
+.contact .contact-banner-content h4 {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.contact .horizontal-line {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 1px;
+  height: 100px;
+}
+
+.contact .contact-section-1 {
+  margin-top: 150px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 @media only screen and (max-width: 700px) {
