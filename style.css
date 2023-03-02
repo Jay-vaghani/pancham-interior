@@ -39,6 +39,26 @@
   border-radius: 50%;
 }
 
+
+
+/* **************************** Loader Page **************************** */
+
+.loader{
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: #f9fafa;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+
 /* **************************** Home Page **************************** */
 
 /* Header  */
@@ -55,11 +75,8 @@
 
 /* Nav Bar  */
 
-.navbar {
-}
-
 .navbar .navbar-brand {
-  width: 180px;
+  width: 60px;
 }
 
 .navbar .nav-link {
@@ -269,6 +286,8 @@
   height: 100px;
 }
 
+/* Contact Section 1  */
+
 .contact .contact-section-1 {
   margin-top: 150px;
 }
@@ -283,6 +302,50 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+
+/* Contact Section 2 */
+
+.contact-section-2 {
+  margin-top: 80px;
+  background-color: #cfe2ff25;
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+
+.contact-section-2 .fade-text {
+  left: 50%;
+  transform: translate(-50%, 40%);
+  width: 100%;
+  z-index: -999;
+}
+
+.contact-section-2 .fade-text h2 {
+  font-size: clamp(3.3rem, 11vw, 9rem);
+  font-weight: 700;
+  color: #f9fafa;
+}
+
+
+/* Contact Section 3 */
+
+
+.contact-section-2 .contact-card{
+  transition: 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.contact-section-2 .contact-card:hover{
+  box-shadow: 2px 2px 15px 2px #5bb8ff7b;
+}
+
+
+/* Footer  */
+
+
+footer{
+  background: #f9fafa ;
 }
 
 @media only screen and (max-width: 700px) {

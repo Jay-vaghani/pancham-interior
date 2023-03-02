@@ -1,3 +1,29 @@
+// Loader JS
+
+const loaderPage = document.getElementById("loader");
+
+const loaderBtn = document
+  .getElementById("loader-btn")
+  .addEventListener("click", () => {
+    localStorage.setItem("loaded", "true");
+
+    const vid = document.getElementById("vid");
+
+    vid.muted = true;
+
+    loaderPage.style.display = "none";
+  });
+
+window.addEventListener("load", () => {
+  if (localStorage.getItem("loaded") === "true") {
+    loaderPage.style.display = "none";
+  } else {
+    loaderPage.style.display = "flex";
+  }
+});
+
+// Email JS
+
 let contactForm = document.getElementsByClassName("contact-form")[0];
 
 const sjc = () => {
