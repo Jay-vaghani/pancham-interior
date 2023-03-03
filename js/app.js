@@ -1,22 +1,22 @@
 // Loader JS
 
 const loaderPage = document.getElementById("loader");
+const vid = document.getElementById("vid")
+const page = document.getElementById("cover");
 
 const loaderBtn = document
   .getElementById("loader-btn")
   .addEventListener("click", () => {
     localStorage.setItem("loaded", "true");
-
-    const vid = document.getElementById("vid");
-
-    vid.muted = true;
-
-    loaderPage.style.display = "none";
+    vid.remove();
+    loaderPage.remove();
   });
 
 window.addEventListener("load", () => {
+
   if (localStorage.getItem("loaded") === "true") {
-    loaderPage.style.display = "none";
+    loaderPage.remove();
+    vid.remove();
   } else {
     loaderPage.style.display = "flex";
   }

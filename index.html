@@ -23,461 +23,472 @@
   <body>
     <!-- Loader  -->
 
-    <div class="loader" id="loader">
-      <video width="70%" autoplay id="vid"  class="rounded-3 overflow-hidden">
+    <div class="loader py-5" id="loader">
+      <video
+        width="90%"
+        id="vid"
+        preload="auto"
+        controls
+        class="rounded-3 overflow-hidden"
+        autoplay="autoplay"
+        muted
+      >
         <source src="./Video/loader-video.mp4" type="video/mp4" />
         <source src="movie.ogg" type="video/ogg" />
         Your browser does not support the video tag.
       </video>
 
-      <button class="btn btn-outline-primary btn-lg mt-4" id="loader-btn">Go To WEbsite</button>
-
+      <button class="btn btn-outline-primary btn-lg mt-4" id="loader-btn">
+        Go To WEbsite
+      </button>
     </div>
-    
-        <!-- Header  -->
-    
 
-    <header class="banner">
-      <div class="container-fluid px-sm-5 position-relative">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="./images/logo/logo-image.png"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-            <button
-              class="navbar-toggler shadow-none border-0"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fa-solid fa-bars text-white"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <!-- Header  -->
 
-        <div class="content">
-          <div class="container-fluid">
-            <div class="row justify-content-start">
-              <div class="col-lg-6 col-sm-8 col-11 banner-content text-white">
-                <p>
-                  <i class="fa-regular fa-compass text-primary"></i>
-                  <small
-                    >Your preferred partner in creating lasting
-                    impressions!</small
-                  >
-                </p>
-                <h1 class="display-3">Modern Design Solutions</h1>
-                <p class="fs-5">
-                  From layout planning to the material selection, Everything we
-                  do is about you and the space you care about.
-                </p>
-                <a href="./portfolio.html" class="text-decoration-none">
-                  <button
-                    class="btn btn-outline-primary rounded-5 px-4 py-2 mt-5 mb-4"
-                  >
-                    See Our Work <i class="fa-solid fa-chevron-right ms-2"></i>
-                  </button>
-                </a>
-              </div>
-              <div class="col-lg-6 image">
+    <div class="cover">
+      <header class="banner">
+        <div class="container-fluid px-sm-5 position-relative">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
                 <img
-                  src="images/hero-img-1.jpg"
-                  class="img-fluid rounded-2"
+                  src="./images/logo/logo-image.png"
+                  class="img-fluid"
                   alt=""
                 />
-                <p class="text-end mt-3">
-                  <i class="fa-solid fa-location-dot me-2 text-primary"></i>
-                  301, Urban Two, Priya Cross Road, Vadodara, 391410
-                </p>
+              </a>
+              <button
+                class="navbar-toggler shadow-none border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa-solid fa-bars text-white"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="content">
+            <div class="container-fluid">
+              <div class="row justify-content-start">
+                <div class="col-lg-6 col-sm-8 col-11 banner-content text-white">
+                  <p>
+                    <i class="fa-regular fa-compass text-primary"></i>
+                    <small
+                      >Your preferred partner in creating lasting
+                      impressions!</small
+                    >
+                  </p>
+                  <h1 class="display-3">Modern Design Solutions</h1>
+                  <p class="fs-5">
+                    From layout planning to the material selection, Everything
+                    we do is about you and the space you care about.
+                  </p>
+                  <a href="./portfolio.html" class="text-decoration-none">
+                    <button
+                      class="btn btn-outline-primary rounded-5 px-4 py-2 mt-5 mb-4"
+                    >
+                      See Our Work
+                      <i class="fa-solid fa-chevron-right ms-2"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="col-lg-6 image">
+                  <img
+                    src="images/hero-img-1.jpg"
+                    class="img-fluid rounded-2"
+                    alt=""
+                  />
+                  <p class="text-end mt-3">
+                    <i class="fa-solid fa-location-dot me-2 text-primary"></i>
+                    301, Urban Two, Priya Cross Road, Vadodara, 391410
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="home-section-1 container-lg">
-      <h2 class="text-center col-lg-6 col-md-7 col-sm-9 mx-2 mx-sm-auto fs-2">
-        Interior Design Doesn't Have to Be Complicated! It Should Be Smart &
-        User Friendly
-      </h2>
+      <section class="home-section-1 container-lg">
+        <h2 class="text-center col-lg-6 col-md-7 col-sm-9 mx-2 mx-sm-auto fs-2">
+          Interior Design Doesn't Have to Be Complicated! It Should Be Smart &
+          User Friendly
+        </h2>
 
-      <div class="content mt-5">
-        <p class="side-dash">
-          <span class="bg-primary"></span>ESTABLISHED 2016
-        </p>
-        <div class="detail col-sm-10">
-          <h3 class="my-4">Interior Designer in Vadodara</h3>
-          <p class="my-4">
-            Maya Space Studio is a full-service interior design firm located in
-            Vadodara and serve clients across the country.
+        <div class="content mt-5">
+          <p class="side-dash">
+            <span class="bg-primary"></span>ESTABLISHED 2016
           </p>
-          <p class="my-4">
-            <b>We deliver inspired designs </b> that are timeless, with
-            <b>careful consideration to aesthetics</b> as well as function
-          </p>
+          <div class="detail col-sm-10">
+            <h3 class="my-4">Interior Designer in Vadodara</h3>
+            <p class="my-4">
+              Maya Space Studio is a full-service interior design firm located
+              in Vadodara and serve clients across the country.
+            </p>
+            <p class="my-4">
+              <b>We deliver inspired designs </b> that are timeless, with
+              <b>careful consideration to aesthetics</b> as well as function
+            </p>
 
-          <p class="my-4">
-            We are committed to deliver impactful designs that fulfill client’s
-            expectations through collaboration and exceptional service. Our goal
-            is always to create designs tailored to our clients’ unique styles
-            and practical needs.
-          </p>
-          <button class="btn btn-outline-primary rounded-5">
-            Know More <i class="fa-solid fa-chevron-right ms-2"></i>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Home Section 2 -->
-
-    <section class="home-section-2 space-between-section py-5">
-      <div class="container-md">
-        <div
-          class="col-xl-5 col-md-8 col-sm-10 bg-white shadow p-5 px-4 px-sm-5 ms-auto services-list rounded-3"
-        >
-          <h3>What We Do?</h3>
-          <p>
-            Maya Space Studio transforms clients’ requirements into a cohesive
-            vision, ensuring that “the big picture” works aesthetically and
-            functionally while reflecting client’s personal needs.
-          </p>
-          <p>
-            <i class="fa-solid fa-circle-check text-primary pe-2"></i>All
-            Interior Designing Work
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Furniture
-            Work
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>POP,
-            Gypsum
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Aluminum
-            Section Work
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Mosquitoes
-            Net
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Exterior
-            Paints
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Interior
-            Paints
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Full
-            Lining Work
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Curtains
-          </p>
-          <p>
-            <i class="fa-solid text-primary fa-circle-check pe-2"></i>Blinds &
-            Mattress
-          </p>
-          <a href="./portfolio.html" class="text-decoration-none">
-            <button class="btn btn-outline-primary rounded-4 mt-3">
-              See Over Work <i class="fa-solid fa-chevron-right ms-2"></i>
+            <p class="my-4">
+              We are committed to deliver impactful designs that fulfill
+              client’s expectations through collaboration and exceptional
+              service. Our goal is always to create designs tailored to our
+              clients’ unique styles and practical needs.
+            </p>
+            <button class="btn btn-outline-primary rounded-5">
+              Know More <i class="fa-solid fa-chevron-right ms-2"></i>
             </button>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Home Section 3 -->
-
-    <section class="home-section-3 position-relative">
-      <div class="fade-text position-absolute z-0">
-        <h2 class="text-center mb-0">EVERY SPACE</h2>
-        <h2 class="text-center mb-0">COUNT</h2>
-      </div>
-      <div class="info position-relative">
-        <h6>EVERY SPACE COUNT</h6>
-        <h3>Our Services</h3>
-      </div>
-
-      <div class="services container-md mt-5">
-        <div class="row g-5">
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa fa-calendar-check bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa-solid fa-cube bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa-solid fa-building bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa-solid fa-ruler-combined bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa-solid fa-house bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 px-md-5 px-2">
-            <div class="d-flex justify-content-center">
-              <i
-                class="fa-solid fa-suitcase bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
-              ></i>
-            </div>
-            <h4 class="text-center my-4">Design Development</h4>
-            <p class="text-center">
-              We Create unique Designs for your dream Flat/Villa/Studio
-              Apartments/Office, which stands out from the crowd and runs
-              throughout your entire space.
-            </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Section 4  -->
+      <!-- Home Section 2 -->
 
-    <section class="home-section-4 position-relative container-lg">
-      <div class="fade-text position-absolute z-0">
-        <h2>TESTIMONIALS</h2>
-      </div>
-      <div class="container-md">
-        <p class="side-dash"><span class="bg-primary"></span>TESTIMONIALS</p>
-
-        <div class="row position-relative gy-5">
-          <div class="col-lg-6">
-            <div class="row gy-4 mx-sm-5">
-              <div class="col-12">
-                <h3>What Our Clients Say</h3>
-                <p>
-                  Somewhere we read that the Customer experience must be on top
-                  of your mind. And here are the voice from our customer. You
-                  are the inspiration for all that we do
-                </p>
-              </div>
-              <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
-                <p class="">
-                  "The work ethics, enthusiasm and dedication that you carry is
-                  outstanding. We are really happy and wish all the best for all
-                  your endeavor"
-                </p>
-                <h6 class="mt-4 fw-bold">Ketan Patel</h6>
-                <p class="mb-0">Store Manager, Furniture Studio, Hyderabad</p>
-              </div>
-              <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
-                <p class=" ">
-                  "Mittal has an amazing gift of transforming a home from
-                  ordinary to magnificent! She is extremely knowledgeable and
-                  professional. Made us feel super comfortable even though it
-                  was our first experience with a designer"
-                </p>
-                <h6 class="mt-4 fw-bold">Suresh Modani</h6>
-                <p class="mb-0">Proprietor, K. K Sales, Morbi</p>
-              </div>
-            </div>
+      <section class="home-section-2 space-between-section py-5">
+        <div class="container-md">
+          <div
+            class="col-xl-5 col-md-8 col-sm-10 bg-white shadow p-5 px-4 px-sm-5 ms-auto services-list rounded-3"
+          >
+            <h3>What We Do?</h3>
+            <p>
+              Maya Space Studio transforms clients’ requirements into a cohesive
+              vision, ensuring that “the big picture” works aesthetically and
+              functionally while reflecting client’s personal needs.
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check text-primary pe-2"></i>All
+              Interior Designing Work
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i
+              >Furniture Work
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>POP,
+              Gypsum
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Aluminum
+              Section Work
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i
+              >Mosquitoes Net
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Exterior
+              Paints
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Interior
+              Paints
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Full
+              Lining Work
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Curtains
+            </p>
+            <p>
+              <i class="fa-solid text-primary fa-circle-check pe-2"></i>Blinds &
+              Mattress
+            </p>
+            <a href="./portfolio.html" class="text-decoration-none">
+              <button class="btn btn-outline-primary rounded-4 mt-3">
+                See Over Work <i class="fa-solid fa-chevron-right ms-2"></i>
+              </button>
+            </a>
           </div>
-          <div class="col-lg-6">
-            <div class="row gy-5 gy-4 mx-sm-5">
-              <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
-                <p class="">
-                  "We would like to thank you for your expertise and
-                  professionalism in designing the interior of my house which is
-                  commendable as you took the liberty to change things on your
-                  own which for some reason I was not happy at that time,
-                  everything was done on a timely basis and the end result now
-                  looks better than what we had anticipated because of your
-                  inputs and creativeness and work ethics. I would say amazing
-                  job and well looked after, wish you success for your future
-                  work and I will be gladly recommending you to all my friends
-                  and relatives." P.S. You talk and argue a lot 😛
-                </p>
-                <h6 class="mt-4 fw-bold">Shailendra Solanki</h6>
-                <p class="mb-0">
-                  General Manager, Shaman Wheels- Mercedes-Benz, Mumbai
-                </p>
+        </div>
+      </section>
+
+      <!-- Home Section 3 -->
+
+      <section class="home-section-3 position-relative">
+        <div class="fade-text position-absolute z-0">
+          <h2 class="text-center mb-0">EVERY SPACE</h2>
+          <h2 class="text-center mb-0">COUNT</h2>
+        </div>
+        <div class="info position-relative">
+          <h6>EVERY SPACE COUNT</h6>
+          <h3>Our Services</h3>
+        </div>
+
+        <div class="services container-md mt-5">
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa fa-calendar-check bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
               </div>
-              <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
-                <p class=" ">
-                  "Considering ours was the first project Mittal took up, she
-                  did very good with the interiors. She worked closely with
-                  attention to minute details. She made sure that the aura of
-                  the home was positive right from the entrance to the last
-                  room."
-                </p>
-                <h6 class="mt-4 fw-bold">Vrishin Thakker</h6>
-                <p class="mb-0">Accounts Manager, KPO firm, Vadodara</p>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa-solid fa-cube bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
               </div>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa-solid fa-building bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
+              </div>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa-solid fa-ruler-combined bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
+              </div>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa-solid fa-house bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
+              </div>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-md-5 px-2">
+              <div class="d-flex justify-content-center">
+                <i
+                  class="fa-solid fa-suitcase bg-primary-subtle fa-3x p-4 rounded-50 text-primary"
+                ></i>
+              </div>
+              <h4 class="text-center my-4">Design Development</h4>
+              <p class="text-center">
+                We Create unique Designs for your dream Flat/Villa/Studio
+                Apartments/Office, which stands out from the crowd and runs
+                throughout your entire space.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Section 5  -->
+      <!-- Section 4  -->
 
-    <section class="home-section-5 my-5 py-5">
-      <h2 class="text-center mb-4">Ready To Begin Your Project?</h2>
-      <button class="btn btn-outline-primary d-block mx-auto rounded-5">
-        Schedule An Appoinment <i class="fa-solid fa-chevron-right ms-2"></i>
-      </button>
-    </section>
+      <section class="home-section-4 position-relative container-lg">
+        <div class="fade-text position-absolute z-0">
+          <h2>TESTIMONIALS</h2>
+        </div>
+        <div class="container-md">
+          <p class="side-dash"><span class="bg-primary"></span>TESTIMONIALS</p>
 
-    <!-- Footer -->
-
-    <footer>
-      <div class="container-lg py-5">
-        <div class="row gy-5 px-3  text-center text-sm-start align-items-center py-5">
-          <div class="col-lg-3 d-none d-lg-block">
-            <img
-              src="./images/logo/logo-image.png"
-              class="img-fluid w-50"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6  ">
-            <h3 class="text-primary mb-3">Our Company</h3>
-            <p>
-              <i class="fa-solid fa-angle-right text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/">Home</a>
-            </p>
-            <p>
-              <i class="fa-solid fa-angle-right text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/contact.html"
-                >Contact Us</a
-              >
-            </p>
-            <p>
-              <i class="fa-solid fa-angle-right text-primary me-2"></i
-              ><a
-                class="text-decoration-none text-primary"
-                href="/portfolio.html"
-                >Portfolio</a
-              >
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6  ">
-            <h3 class="text-primary mb-3">Contact Info</h3>
-            <p>
-              <i class="fa-brands fa-instagram text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/"
-                >Instagram</a
-              >
-            </p>
-            <p>
-              <i class="fa-brands fa-facebook text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/"
-                >Facebook</a
-              >
-            </p>
-            <p>
-              <i class="fa-brands fa-linkedin-in text-primary me-2"></i
-              ><a
-                class="text-decoration-none text-primary"
-                href="/"
-                >Linkedin</a
-              >
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6  ">
-            <h3 class="text-primary mb-3">Get In Touch</h3>
-            <p>
-              <i class="fa-solid fa-location-dot text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/"
-                >301, Urban Two, Priya Cross Road, Bhayli, Vadodara, India</a
-              >
-            </p>
-            <p>
-              <i class="fa-solid fa-phone text-primary me-2"></i
-              ><a class="text-decoration-none text-primary" href="/"
-                >Facebook</a
-              >
-            </p>
-            <p>
-              <i class="fa-brands fa-whatsapp text-primary me-2"></i
-              ><a
-                class="text-decoration-none text-primary"
-                href="/"
-                >Linkedin</a
-              >
-            </p>
+          <div class="row position-relative gy-5">
+            <div class="col-lg-6">
+              <div class="row gy-4 mx-sm-5">
+                <div class="col-12">
+                  <h3>What Our Clients Say</h3>
+                  <p>
+                    Somewhere we read that the Customer experience must be on
+                    top of your mind. And here are the voice from our customer.
+                    You are the inspiration for all that we do
+                  </p>
+                </div>
+                <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
+                  <p class="">
+                    "The work ethics, enthusiasm and dedication that you carry
+                    is outstanding. We are really happy and wish all the best
+                    for all your endeavor"
+                  </p>
+                  <h6 class="mt-4 fw-bold">Ketan Patel</h6>
+                  <p class="mb-0">Store Manager, Furniture Studio, Hyderabad</p>
+                </div>
+                <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
+                  <p class=" ">
+                    "Mittal has an amazing gift of transforming a home from
+                    ordinary to magnificent! She is extremely knowledgeable and
+                    professional. Made us feel super comfortable even though it
+                    was our first experience with a designer"
+                  </p>
+                  <h6 class="mt-4 fw-bold">Suresh Modani</h6>
+                  <p class="mb-0">Proprietor, K. K Sales, Morbi</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row gy-5 gy-4 mx-sm-5">
+                <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
+                  <p class="">
+                    "We would like to thank you for your expertise and
+                    professionalism in designing the interior of my house which
+                    is commendable as you took the liberty to change things on
+                    your own which for some reason I was not happy at that time,
+                    everything was done on a timely basis and the end result now
+                    looks better than what we had anticipated because of your
+                    inputs and creativeness and work ethics. I would say amazing
+                    job and well looked after, wish you success for your future
+                    work and I will be gladly recommending you to all my friends
+                    and relatives." P.S. You talk and argue a lot 😛
+                  </p>
+                  <h6 class="mt-4 fw-bold">Shailendra Solanki</h6>
+                  <p class="mb-0">
+                    General Manager, Shaman Wheels- Mercedes-Benz, Mumbai
+                  </p>
+                </div>
+                <div class="col-12 bg-white rounded-3 p-4 p-sm-5">
+                  <p class=" ">
+                    "Considering ours was the first project Mittal took up, she
+                    did very good with the interiors. She worked closely with
+                    attention to minute details. She made sure that the aura of
+                    the home was positive right from the entrance to the last
+                    room."
+                  </p>
+                  <h6 class="mt-4 fw-bold">Vrishin Thakker</h6>
+                  <p class="mb-0">Accounts Manager, KPO firm, Vadodara</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </section>
+
+      <!-- Section 5  -->
+
+      <section class="home-section-5 my-5 py-5">
+        <h2 class="text-center mb-4">Ready To Begin Your Project?</h2>
+        <button class="btn btn-outline-primary d-block mx-auto rounded-5">
+          Schedule An Appoinment <i class="fa-solid fa-chevron-right ms-2"></i>
+        </button>
+      </section>
+
+      <!-- Footer -->
+
+      <footer>
+        <div class="container-lg py-5">
+          <div
+            class="row gy-5 px-3 text-center text-sm-start align-items-center py-5"
+          >
+            <div class="col-lg-3 d-none d-lg-block">
+              <img
+                src="./images/logo/logo-image.png"
+                class="img-fluid w-50"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <h3 class="text-primary mb-3">Our Company</h3>
+              <p>
+                <i class="fa-solid fa-angle-right text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/">Home</a>
+              </p>
+              <p>
+                <i class="fa-solid fa-angle-right text-primary me-2"></i
+                ><a
+                  class="text-decoration-none text-primary"
+                  href="/contact.html"
+                  >Contact Us</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-angle-right text-primary me-2"></i
+                ><a
+                  class="text-decoration-none text-primary"
+                  href="/portfolio.html"
+                  >Portfolio</a
+                >
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <h3 class="text-primary mb-3">Contact Info</h3>
+              <p>
+                <i class="fa-brands fa-instagram text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >Instagram</a
+                >
+              </p>
+              <p>
+                <i class="fa-brands fa-facebook text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >Facebook</a
+                >
+              </p>
+              <p>
+                <i class="fa-brands fa-linkedin-in text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >Linkedin</a
+                >
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <h3 class="text-primary mb-3">Get In Touch</h3>
+              <p>
+                <i class="fa-solid fa-location-dot text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >301, Urban Two, Priya Cross Road, Bhayli, Vadodara, India</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-phone text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >Facebook</a
+                >
+              </p>
+              <p>
+                <i class="fa-brands fa-whatsapp text-primary me-2"></i
+                ><a class="text-decoration-none text-primary" href="/"
+                  >Linkedin</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
     <!-- Bootstrap Javascript  -->
     <script
@@ -506,6 +517,5 @@
   <textarea name="" id="textarea" cols="30" rows="10"></textarea>
   <input type="submit" >
 </form> -->
-
 
 <!-- +91 90168 68001 -->
