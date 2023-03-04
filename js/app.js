@@ -1,26 +1,4 @@
-// Loader JS
 
-const loaderPage = document.getElementById("loader");
-const vid = document.getElementById("vid")
-const page = document.getElementById("cover");
-
-const loaderBtn = document
-  .getElementById("loader-btn")
-  .addEventListener("click", () => {
-    localStorage.setItem("loaded", "true");
-    vid.remove();
-    loaderPage.remove();
-  });
-
-window.addEventListener("load", () => {
-
-  if (localStorage.getItem("loaded") === "true") {
-    loaderPage.remove();
-    vid.remove();
-  } else {
-    loaderPage.style.display = "flex";
-  }
-});
 
 // Email JS
 
